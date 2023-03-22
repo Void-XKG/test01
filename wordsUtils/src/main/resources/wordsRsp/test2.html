@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表单测试</title>
+</head>
+<body>
+<form>
+    <label for="year">年份：</label>
+    <select id="year" name="year"></select>
+    <label for="month">月份：</label>
+    <select id="month" name="month"></select>
+    <label for="day">日期：</label>
+    <select id="day" name="day"></select>
+</form>
+<script>
+    // 获取年份的下拉框
+    var yearSelect = document.getElementById("year");
+    // 获取月份的下拉框
+    var monthSelect = document.getElementById("month");
+    // 获取日期的下拉框
+    var daySelect = document.getElementById("day");
+    // 获取当前年份
+    var nowYear = new Date().getFullYear();
+    // 定义最小年份
+    var minYear = 2000;
+    // 动态生成年份下拉框
+    for (var i = nowYear; i >= minYear; i--) {
+        var option = document.createElement("option");
+        option.value = i;
+        option.innerHTML = i;
+        yearSelect.appendChild(option);
+    }
+    // 动态生成月份下拉框
+    for (var i = 1; i <= 12; i++) {
+        var option = document.createElement("option");
+        option.value = i;
+        option.innerHTML = i;
+        monthSelect.appendChild(option);
+    }
+    // 监听月份下拉框变化事件
+    monthSelect.addEventListener('change', function(){
+        // 获取月份
+        var month = parseInt(monthSelect.value, 10);
+        // 计算最大天数
+        var maxDay = new Date(yearSelect.value, month, 0).getDate();
+        // 移除原有的日期下拉框选项
+        daySelect.innerHTML = '';
+        // 动态生成日期下拉框
+        for (var i = 1; i <= maxDay; i++) {
+            var option = document.createElement("option");
+            option.value = i;
+            option.innerHTML = i;
+            daySelect.appendChild(option);
+        }
+    });
+</script>
+</body>
+</html>

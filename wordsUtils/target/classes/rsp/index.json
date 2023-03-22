@@ -1,0 +1,994 @@
+{
+  "errorcode": 0,
+  "errmsg": "",
+  "tables": [
+    {
+      "thscode": "884002.TI",
+      "time": [
+        "2022-06-23"
+      ],
+      "table": {
+        "ths_pre_close_index": [
+          1739.765
+        ],
+        "ths_open_price_index": [
+          1745.045
+        ],
+        "ths_high_price_index": [
+          1752.663
+        ],
+        "ths_low_index": [
+          1718.615
+        ],
+        "ths_close_price_index": [
+          1752.098
+        ],
+        "ths_chg_ratio_index": [
+          0.70888884418297
+        ],
+        "ths_chg_index": [
+          12.333
+        ],
+        "ths_vol_index": [
+          33320471.0
+        ],
+        "ths_turnover_ratio_index": [
+          1.0558888087784
+        ],
+        "ths_swing_index": [
+          1.9570459228689
+        ],
+        "ths_margin_trading_sell_amt_index": [
+          null
+        ],
+        "ths_margin_trading_repay_amt_index": [
+          null
+        ],
+        "ths_margin_trading_balance_index": [
+          null
+        ],
+        "ths_short_selling_sell_vol_index": [
+          null
+        ],
+        "ths_short_selling_payment_vol_index": [
+          null
+        ],
+        "ths_short_selling_vol_balance_index": [
+          null
+        ],
+        "ths_active_buy_large_amt_index": [
+          5676146.0
+        ],
+        "ths_possitive_buy_large_amt_index": [
+          5488555.0
+        ],
+        "ths_active_sell_large_amt_index": [
+          14834142.0
+        ],
+        "ths_possitive_sell_large_amt_index": [
+          9665494.5
+        ],
+        "ths_active_buy_main_amt_index": [
+          29157926.0
+        ],
+        "ths_possitive_buy_main_amt_index": [
+          33751296.0
+        ],
+        "ths_active_sell_main_amt_index": [
+          34280598.4
+        ],
+        "ths_possitive_sell_main_amt_index": [
+          33876583.0
+        ],
+        "ths_active_buy_middle_amt_index": [
+          93147892.0
+        ],
+        "ths_possitive_buy_middle_amt_index": [
+          107620637.0
+        ],
+        "ths_active_sell_middle_amt_index": [
+          105981192.0
+        ],
+        "ths_possitive_sell_middle_amt_index": [
+          98310224.0
+        ],
+        "ths_small_buy_amt_index": [
+          218012281.0
+        ],
+        "ths_small_sell_amt_index": [
+          195906499.1
+        ],
+        "ths_dde_index": [
+          -18582894.9
+        ],
+        "ths_thscode_index": [
+          "884002.TI"
+        ]
+      }
+    }
+  ],
+  "datatype": [
+    {
+      "itemid": "ths_pre_close_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_open_price_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_high_price_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_low_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_close_price_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_chg_ratio_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_chg_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_vol_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_turnover_ratio_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_swing_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_margin_trading_sell_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_margin_trading_repay_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_margin_trading_balance_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_short_selling_sell_vol_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_short_selling_payment_vol_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_short_selling_vol_balance_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_buy_large_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_buy_large_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_sell_large_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_sell_large_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_buy_main_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_buy_main_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_sell_main_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_sell_main_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_buy_middle_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_buy_middle_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_active_sell_middle_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_possitive_sell_middle_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_small_buy_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_small_sell_amt_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_dde_index",
+      "type": "DT_DOUBLE"
+    },
+    {
+      "itemid": "ths_thscode_index",
+      "type": "DT_STRING"
+    }
+  ],
+  "inputParams": {
+    "jsonrpc": true,
+    "params": [
+      {
+        "function": "ths_pre_close_index",
+        "id": "00038",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_open_price_index",
+        "id": "00039",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_high_price_index",
+        "id": "00040",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_low_index",
+        "id": "00041",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_close_price_index",
+        "id": "00042",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_chg_ratio_index",
+        "id": "00559",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_chg_index",
+        "id": "00044",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_vol_index",
+        "id": "00047",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_turnover_ratio_index",
+        "id": "00046",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_swing_index",
+        "id": "11018",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FD0",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_margin_trading_sell_amt_index",
+        "id": "658152",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_margin_trading_repay_amt_index",
+        "id": "658154",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_margin_trading_balance_index",
+        "id": "658156",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_short_selling_sell_vol_index",
+        "id": "658158",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "F0",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_short_selling_payment_vol_index",
+        "id": "658160",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "F0",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_short_selling_vol_balance_index",
+        "id": "658162",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "F0",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_buy_large_amt_index",
+        "id": "657379",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_buy_large_amt_index",
+        "id": "657381",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_sell_large_amt_index",
+        "id": "657383",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_sell_large_amt_index",
+        "id": "657385",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_buy_main_amt_index",
+        "id": "657387",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_buy_main_amt_index",
+        "id": "657389",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_sell_main_amt_index",
+        "id": "657391",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_sell_main_amt_index",
+        "id": "657393",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_buy_middle_amt_index",
+        "id": "657395",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_buy_middle_amt_index",
+        "id": "657397",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_active_sell_middle_amt_index",
+        "id": "657399",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_possitive_sell_middle_amt_index",
+        "id": "657401",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_small_buy_amt_index",
+        "id": "657403",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_small_sell_amt_index",
+        "id": "657405",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_dde_index",
+        "id": "657407",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FTRADEDATE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "UNIT",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "function": "ths_thscode_index",
+        "id": "00003",
+        "params": [
+          {
+            "name": "THSCODE",
+            "system": "false",
+            "value": ""
+          },
+          {
+            "name": "FDIR",
+            "system": "false",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "dataVol": 32,
+  "perf": 643
+}
